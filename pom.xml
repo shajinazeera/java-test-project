@@ -142,6 +142,24 @@
                 </configuration>
             </plugin>
 
+            <plugin>
+    <groupId>org.sonatype.plugins</groupId>
+    <artifactId>nexus-staging-maven-plugin</artifactId>
+    <version>1.6.7</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <serverId>nexus</serverId>
+        <nexusUrl>http://13.233.161.181:8081/nexus</nexusUrl>
+        <stagingRepositoryId>maven-releases</stagingRepositoryId>
+    </configuration>
+</plugin>
+
         </plugins>
     </build>
 
