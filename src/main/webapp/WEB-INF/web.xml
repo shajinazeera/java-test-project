@@ -14,7 +14,7 @@
         <servlet-class>com.microsoft.webapp.samples.TrackerServlet</servlet-class>
         <init-param>
             <param-name>pageTitle</param-name>
-            <param-value>This is first Cloud Scale Web Session Management testing new last final output end</param-value>
+            <param-value>This is first Cloud Scale Web Session Management testing new last final</param-value>
         </init-param>
     </servlet>
 
