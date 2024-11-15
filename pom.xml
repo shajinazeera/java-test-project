@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.microsoft.webapp.samples</groupId>
     <artifactId>Stateful-Tracker</artifactId>
-    <version>1.0.${env.BUILD_NUMBER}</version>
+    <version>1.0.${BUILD_NUMBER}</version>
     <packaging>war</packaging>
 
     <properties>
